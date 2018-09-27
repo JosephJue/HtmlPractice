@@ -5,42 +5,64 @@
 <meta name="keywords" content="主页">
 <meta name="description" content="学习使用html制作一个网页">
 <title>"main page demo"</title>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
 
 <body>
 
-<!-- 页面头 -->
-<div class="header">
-	<!-- logo图 -->
-	<div class="logo">
-		<a href="http://www.rongcloud.cn">
-			<img src="logo.png">
-		</a>
+<!-- 页面内容 -->
+<div class="content">
+	<!-- 页面头 -->
+	<div class="header">
+		<!-- logo图 -->
+		<div class="logo">
+			<a href="http://www.rongcloud.cn">
+				<img src="logo.png">
+			</a>
+		</div>
+		
+		<!-- 菜单list -->
+		<div class="menu">
+			<ul>
+				<li><a href="https://www.rongcloud.cn/product">产品</a></li>
+				<li><a href="https://www.rongcloud.cn/pricing#pay">价格</a></li>
+				<li><a href="https://www.rongcloud.cn/customer">案例</a></li>
+				<li><a href="https://www.rongcloud.cn/docs/">开发文档</a></li>
+				<li><a href="https://www.rongcloud.cn/downloads">下载</a></li>
+				<li><a href="https://support.rongcloud.cn/">支持</a></li>
+				<li><a href="https://www.rongcloud.cn/partner">合作伙伴</a></li>
+			</ul>
+		</div>
+		
+		<!-- 登录和注册 -->
+		<div class="login">
+			<a class="login-button" href="https://developer.rongcloud.cn/signin">登录</a>
+			<a class="register-button" href="https://developer.rongcloud.cn/signup">注册</a>
+		</div>
 	</div>
-	
-	<!-- 菜单list -->
-	<div class="menu">
-		<ul>
-			<li><a href="https://www.rongcloud.cn/product">产品</a></li>
-			<li><a href="https://www.rongcloud.cn/pricing#pay">价格</a></li>
-			<li><a href="https://www.rongcloud.cn/customer">案例</a></li>
-			<li><a href="https://www.rongcloud.cn/docs/">开发文档</a></li>
-			<li><a href="https://www.rongcloud.cn/downloads">下载</a></li>
-			<li><a href="https://support.rongcloud.cn/">支持</a></li>
-			<li><a href="https://www.rongcloud.cn/partner">合作伙伴</a></li>
-		</ul>
+
+	<!-- 页面中间的推广图片 -->
+	<div class="promotionpic">
+		<img src="pic1.jpeg">
 	</div>
-	
-	<!-- 登录和注册 -->
-	<div class="login">
-		<a href="https://developer.rongcloud.cn/signin">登 录</a>
-		<a href="https://developer.rongcloud.cn/signup">注 册</a>
+
+	<!-- 四大业务场景 -->
+	<div class="four-business-scences">
+		<h3 class="four-business-scences-title">四大业务场景</h3>
+		<h4 class="four-business-scences-description">精准匹配你的沟通诉求</h4>
+
+		<div class="scence-titles">
+			<ul>
+				<li class="scence-App-IM"><h4>应用内社交</h4></li>
+				<li class="scence-live"><h4>直播互动</h4></li>
+				<li class="scence-enterprise-IM"><h4>企业 IM</h4></li>
+				<li class="scence-business-IM"><h4>商业沟通</h4></li>
+			</ul>
+		</div>
 	</div>
+
 </div>
 
-<!-- 页面中间的推广图片 -->
-<div class="promotionpic">
-	<img src="pic1.jpeg">
-</div>
+
 
 </body>
