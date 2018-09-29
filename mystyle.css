@@ -1,34 +1,35 @@
+/* 网页全部内容的父容器 */
 .content {
 	margin: auto;
 	width: 960px;
 }
-
+/* 网页头部分  */
 .header {
 	background: #01061E;
 	width: 100%;
 }
-
+/* 左上 logo */
 .logo {
   display: inline-block;
 }
-
+/* 顶部菜单 */
 .menu {
   display: inline-block;
   margin-left: 150px;
 }
-
+/* 右上注册和登陆 */
 .login {
   display: inline-block;
   margin-left: 100px;
 }
-
+/* logo 图片 */
 .logo img {
 	position: absolute;
 	left: 80px;
 	top: 10px;
 	height: 60px
 }
-
+/* 菜单列表 */
 .menu ul li {
  display: inline-block;
  width: 80px;
@@ -36,7 +37,7 @@
  vertical-align: middle;
  text-align: center;
 }
-
+/* 菜单链接 */
 .menu a:link, a:visited {
 	font-weight: bold;
 	font-size: 14px;
@@ -44,11 +45,11 @@
 	color: #FFFFFF;
 	text-decoration: none;
 }
-
+/* 菜单链接 悬停 */
 .menu a:hover {
 	color: #0C96FC;
 }
-
+/* 登录链接 */
 .login-button:link, visited {
 	font-weight: bold;
 	font-size: 14px;
@@ -62,13 +63,14 @@
 	text-align:center;
 	border-style: solid; 
 	border-width: 1px;
+	border-radius:6px;
 }
-
+/* 登录链接 悬停 */
 .login-button:hover {
 	color: #324C83;
 	background-color: white;
 }
-
+/* 注册链接 */
 .register-button:link, visited {
 	font-weight: bold;
 	font-size: 14px;
@@ -81,57 +83,129 @@
 	text-decoration: none;
 	width: 120px;
 	text-align:center;
+	border-radius:6px;
 }
-
+/* 注册链接悬停 */
 .register-button:hover {
 	color: white;
 	background-color: #0C96FC;
 }
-
+/* 网友上部的推广图 */
 .promotionpic img {
 	width: 100%;
 }
-
+/* 四大业务容器 */
 .four-business-scences {
 	background-color: #FBFEFF;
 }
-
+/* 四大业务标题 */
 .four-business-scences-title {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	margin: auto;
 	text-align: center;
 	color: #644E7A;
 }
-
+/* 四大业务副标题 */
 .four-business-scences-description {
 	margin: auto;
 	text-align: center;
 	color: #748597;
 }
 
-.scence-titles {
-	margin: auto;
-}
-
+/* 四大业务内容标题列表 */
 .scence-titles ul {
 	display:table;
     margin:10px auto;
 }
-
+/* 四大业务内容标题列表具体项 */
 .scence-titles ul li {
 	display: inline-block;
 	text-align:center;
 	margin-right:45px;
 	color: #495D64;
 }
-
+/* 四大业务内容标题列表具体项 悬停 */
 .scence-titles ul li:hover {
 	color: #0C96FC;
 }
-
-
-
-
+/* 场景内容文字内容部分 */
+.content-text {
+	padding-top: -40px;
+	display: inline-block;
+	width: 50%;
+}
+/* 场景序号 */
+.scence-number {
+	display: inline-block;
+	background-color: #394B77;
+	color: white;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 12px;
+	border-radius:5px;
+}
+/* 场景内容标题 */
+.scence-content h3 {
+	display: inline-block;
+	color: #644E7A;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+/* 场景内容列表 */
+.scence-content ul {
+	margin-left: -40px;
+}
+/* 场景内容列表具体项 */
+.scence-content ul li {
+	display: inline-block;
+}
+/* 场景内容描述 */
+.scence-content p {
+	display: inline-block;
+	color: #42537D;
+	line-height: 30px;
+}
+/* 场景内容链接 */
+.scence-content a {
+	display: inline-block;
+	padding: 15px;
+	color: #42537D;
+	text-decoration: none;
+}
+/* 场景内容链接 悬停 */
+.scence-content a:hover {
+	color: #0C96FC;
+}
+/* “查看上述产品介绍”链接 */
+.scence-goto-description a {
+	color: #0C96FC;
+	background-color: white;
+	font-size: 12px;
+	padding: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius:5px;
+	border-style: solid; 
+	border-width: 1px;
+	border-color: #0C96FC;
+	text-decoration: none;
+}
+/* “查看上述产品介绍”链接 悬停 */
+.scence-goto-description a:hover {
+	background-color: #0C96FC;
+	color: white;
+}
+/* 业务场景右侧图片 */
+.content-image {
+	margin-left: 40px;
+	margin-top: 40px;
+	display: inline-block;
+	width: 40%;
+}
+/* 业务场景右侧图片 */
+.content-image img {
+	width: 100%;
+}
 
 
 
